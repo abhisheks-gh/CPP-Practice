@@ -19,7 +19,8 @@ public:
     // member without using static member funtion.
 };
 
-int Demo::x = 10; // Syntax--> class_name::static_data_member;
+// Syntax--> className::staticDataMember;
+int Demo::x = 10; 
 
 int main()
 {
