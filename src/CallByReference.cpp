@@ -25,8 +25,8 @@ int main() {
  // passing value to function
  swap(&x, &y); 
   
- std::cout << "Value of x is: " << x << endl;  
- std::cout << "Value of y is: " << y << endl; 
+ std::cout << "Value of x is: " << x << std::endl;  
+ std::cout << "Value of y is: " << y << std::endl; 
   
  return 0;  
 }    
