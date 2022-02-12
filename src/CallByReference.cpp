@@ -9,7 +9,6 @@
 // Here is an program using the concpt of call by reference. 
 
 #include <iostream>
-using namespace std;
 
 void swap(int *x, int *y) {  
  int swap;  
