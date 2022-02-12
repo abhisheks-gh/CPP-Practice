@@ -9,7 +9,6 @@
 // as main()
 
 #include <iostream> 
-using namespace std;  
 
 void change(int data);  
 
