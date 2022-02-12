@@ -10,22 +10,23 @@
 
 #include <iostream>
 
+
 void swap(int *x, int *y) {  
- int swap;  
- swap = *x;  
- *x = *y;  
- *y = swap;  
+    int swap;  
+    swap = *x;  
+    *x = *y;  
+    *y = swap;  
 }  
 
 
 int main() {    
- int x = 500, y = 100;    
+    int x = 500, y = 100;    
   
- // passing value to function
- swap(&x, &y); 
+    // passing value to function
+    swap(&x, &y); 
   
- std::cout << "Value of x is: " << x << std::endl;  
- std::cout << "Value of y is: " << y << std::endl; 
+    std::cout << "Value of x is: " << x << std::endl;  
+    std::cout << "Value of y is: " << y << std::endl; 
   
- return 0;  
-}    
+    return 0;  
+} 
