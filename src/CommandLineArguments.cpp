@@ -16,15 +16,16 @@ int main(int argc, char *argv[]) {
     }
 }
 
+
 // To pass an argument use command --->   .\command
 
 //  Syntax:-
-// int main(int argc, char*argv[]){
+// int main(int argc, char*argv[]) {
 //     _ _ _ _
 // }
 
 //       OR
 
-// int main(int argc, char**argv){
+// int main(int argc, char**argv) {
 //     _ _ _ _
 // }    
