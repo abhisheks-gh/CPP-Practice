@@ -8,7 +8,7 @@
 -> It can be overloaded but it can not be inherited or virtual. */
 
  //There is a concept of copy constructor which is used to initialize a object from another object. 
-#include<iostream>
+#include <iostream>
 using namespace std;
  class Z
 {
@@ -28,7 +28,7 @@ int main()
 {
     Z z1;   // Constructor Called
     int a = 1;
-    if(a==1) 
+    if (a == 1) 
     {
         Z z2;  // Constructor Called
     }  // Destructor Called for z2
