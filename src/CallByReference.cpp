@@ -1,4 +1,4 @@
-// CALL BY REFERENCE 
+// Call by Reference
 
 // In call by reference, original value is modified because we pass reference(address).
 // Here, address of the value is passed in the function, so actual and formal arguments shares the same address space.
