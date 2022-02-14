@@ -1,12 +1,9 @@
-// Call by value:
+// Call by value
 
-// In call by value, original value is not modified.
-// Value being passed to the function is locally stored 
+// In call by value, original value is not modified. The value being passed to the function is locally stored 
 // by the function parameter in stack memory location. 
-// If you change the value of function parameter, it is 
-// changed for the current function only. It will not 
-// change the value of variable inside the caller method such 
-// as main()
+// If we change the value of function parameter, it is changed for the current function only. It will not 
+// change the value of variable inside the caller method such as main()
 
 #include <iostream> 
 
