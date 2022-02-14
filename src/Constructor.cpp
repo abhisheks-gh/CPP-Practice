@@ -1,4 +1,4 @@
-//CONSTRUCTORS in C++ :-
+// CONSTRUCTORS in C++ :-
 
 /* A constructor is a member function of a class that has the same name as the class name.
 -> It helps to initialize the object of a class. It can either accept the arguments or not.
@@ -7,9 +7,12 @@
 -> It can be defined manually with arguments or without arguments. There can be many constructors in class. 
 -> It can be overloaded but it can not be inherited or virtual. */
 
- //There is a concept of copy constructor which is used to initialize a object from another object. 
+
+// There is a concept of copy constructor which is used to initialize a object from another object. 
+
 #include <iostream>
 using namespace std;
+
  class Z
 {
 public:
