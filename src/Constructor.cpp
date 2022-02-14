@@ -8,7 +8,7 @@
 -> It can be overloaded but it can not be inherited or virtual. */
 
 
-// There is a concept of copy constructor which is used to initialize a object from another object. 
+// There is a concept of copy constructor which is used to initialize a object from another object.
 
 #include <iostream>
 using namespace std;
