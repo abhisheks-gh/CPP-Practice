@@ -1,28 +1,27 @@
-#include<iostream>
-using namespace std;
-
+#include <iostream>
 
 class Base {
-    int num;  //by default private
+    private:
+        int num; 
     public:
-     void read();
-     void print();
+        void read();
+        void print();
 };
-  
-void Base :: read() {
-    cout<<"Enter any Integer value"<<endl; 
-    cin>>num;
+
+void Base::read() {
+    std::cout << "Enter any Integer value:" << std::endl;
+    std::cin >> num;
 }
-  
-void Base :: print() {
-    cout<<"The value is "<<num<<endl;
+
+void Base::print() {
+    std::cout << "The value you entered is " << num << std::endl;
 }
-  
+
 int main() {
     Base obj;
-     
+
     obj.read();
     obj.print();
-     
+
     return 0;
 }
