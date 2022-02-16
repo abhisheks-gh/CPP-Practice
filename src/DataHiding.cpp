@@ -1,3 +1,4 @@
+// Program to show the concept of Data Hiding
 #include <iostream>
 
 class Base {
