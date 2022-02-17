@@ -1,4 +1,4 @@
-/* Program to find whether the entered day is weekday or weekend using enum datatype. */
+// Program to find whether the entered day is weekday or weekend using enum datatype.
 
 #include <iostream>
 using namespace std;
