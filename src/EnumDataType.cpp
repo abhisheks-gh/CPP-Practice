@@ -1,8 +1,9 @@
 /* Program to find whether the entered day is weekday or weekend using enum datatype. */
+
 #include<iostream>
 using namespace std;
-int main()
-{
+
+int main() {
     enum Day {Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday}; 
     enum Day today;
     int x;
@@ -15,5 +16,3 @@ int main()
         cout<<"Week day. Get back to work!\n";
     return 0;
 }
-
-
