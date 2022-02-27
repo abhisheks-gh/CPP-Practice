@@ -22,10 +22,11 @@
  */
 
 
-   #include<iostream>
+   #include <iostream>
    using namespace std;
-   #define MAX(a,b)       ((a<b)?b:a) //if a<b --> print b otherwise print a
-   int main(void){
-      cout<<"Maximum of 10 and 20 is "<<MAX("10","20")<<endl;
+
+   #define MAX(a,b)       ((a < b) ? b:a)  // if a < b --> print b otherwise print a
+   int main(void) {
+      std::cout << "Maximum of 10 and 20 is " << MAX("10","20") << std::endl;
       return 0;
    }
