@@ -1,9 +1,12 @@
-//Code 2-->C++ source code
+// Code 2-->C++ source code
 #include "volume.h"
 #include<iostream>
+
 using namespace std;
-int main(){
-    int a1,r1,x1,y1;
+
+int main() {
+    int a1, r1, x1, y1;
+    
     cout<<"Enter the sides of cube : "<<endl;
     cin>>a1;
     cout<<"Volume of cube : "<<volume::cube(a1)<<"cube units\n";
@@ -17,4 +20,3 @@ int main(){
     
     cout<<"Volume of cylinder : "<<volume::cylinder(x1,y1)<<"cube units\n";
 }
-
