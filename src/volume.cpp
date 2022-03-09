@@ -1,6 +1,6 @@
 // Code 2-->C++ source code
 #include "volume.h"
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
