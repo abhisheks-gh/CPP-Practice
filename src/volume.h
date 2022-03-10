@@ -1,4 +1,4 @@
-//Code 1 --> Header file source code
+// Code 1 --> Header file 
 namespace volume
 {
     float cube(int a)
