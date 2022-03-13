@@ -1,7 +1,5 @@
-//                                         **** PRACTICAL -> 6 ****                     
-
-
-// INSTRUCTIONS :-
+               
+// INSTRUCTIONS:
 
 // Create two classes DM and DB which store the value of distances. DM stores distances in metres and centimetres and 
 // DB stores distance in feet and inches. Write a program that can read values for the class objects and add one object
