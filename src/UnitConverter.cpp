@@ -14,52 +14,43 @@
 // The display should be in the form of feet and inches or metres and centimetres depending on the object on display.
 
 
-#include<iostream>
-#include<conio.h>
-#include<stdio.h>
-#include<math.h>
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+#include <math.h>
+
 using namespace std;
 
-class DM
-{
-
+class DM {
 public:
-double metre,centimetre;
-
+  double metre,centimetre;
 };
 
-class DB
-{
-
+class DB {
 public:
-double feet,inches;
+  double feet,inches;
 
 friend void add(DM,DB);
-
 };
 
-void add(DM dm,DB db)
-{
+void add(DM dm,DB db) {
 
 double d1,d2;
 
-cout<<"\nEnter the distance in metres and centimetres : ";
-cin>>dm.metre>>dm.centimetre;
+std::cout << "\nEnter the distance in metres and centimetres : ";
+std::cin >> dm.metre >> dm.centimetre;
 
-cout<<"\nEnter the distance in feets and inches : ";
-cin>>db.feet>>db.inches;
+std::cout << "\nEnter the distance in feets and inches : ";
+std::cin >> db.feet >> db.inches;
 
-d1=dm.metre+(db.feet)/3.281;
-d2=dm.centimetre+(db.inches)*2.54;
+d1 = dm.metre + (db.feet)/3.281;
+d2 = dm.centimetre + (db.inches)*2.54;
 
-cout<<"\nMetre + Feet = "<<d1<<" metres";
-cout<<"\nCentimetre + inches = "<<d2<<" cemtimetres";
-
+std::cout << "\nMetre + Feet = " << d1 << " metres";
+std::cout << "\nCentimetre + inches = " << d2 << " cemtimetres";
 }
 
-int main()
-{
-
+int main() {
 DM dm;
 DB db;
 
