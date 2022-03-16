@@ -13,7 +13,6 @@
 
 
 #include <iostream>
-#include <conio.h>
 #include <stdio.h>
 #include <math.h>
 
@@ -54,6 +53,6 @@ DB db;
 
 add(dm,db);
 
-getch();
+std::cin.get();
 return 0;
 }
