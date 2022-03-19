@@ -1,10 +1,9 @@
-#include<iostream>
+#include <iostream>
 #include "student.h"
 
 using namespace std;
 
-void students::stud::userinput()
-{
+void students::stud::userinput() {
     cout<<"\nDetail of Students\n";
     cout<<"Enter name: "<<endl;
     cin>>name;
@@ -16,8 +15,7 @@ void students::stud::userinput()
     cin>>contact_no;
 }
 
-void students::stud::studentinfo()
-{
+void students::stud::studentinfo() {
     cout<<"\n****\n";
     cout<<"Name : "<<name<<endl;
     cout<<"Roll no : "<<roll_no<<endl;
@@ -26,8 +24,7 @@ void students::stud::studentinfo()
     cout<<"------*\n";
 }
 
-int main()
-{
+int main() {
     students::stud s1;
     s1.userinput();
     s1.studentinfo();
