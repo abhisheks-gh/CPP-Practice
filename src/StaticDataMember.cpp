@@ -19,14 +19,14 @@ using namespace std;
 class student{
     static int count;
     public:
-    static void showcount(void) //static member function
-    {
-        cout<<"count = "<<count<<"\n";
-    }
+      static void showcount(void) //static member function
+      {
+          std::cout << "count = " << count << "\n";
+      } 
 };
+
 int student::count=0; /*It is called by using the name of the class rather than calling the name of the object.
                          For eg.
                           -->  student::showcount()
                           -->    int student::count=0;
                          */
-
