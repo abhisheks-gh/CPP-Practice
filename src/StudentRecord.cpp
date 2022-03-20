@@ -1,4 +1,5 @@
-/* Program to print the information of 5 students(name, roll no, PRN, percentage) using class and object.*/
+// Program to print the information of 5 students(name, roll no, PRN, percentage) using class and object.
+ 
 #include <iostream>
 #include <cstring>
  
@@ -6,11 +7,11 @@ using namespace std;
  
 class Student {
     private:
-    char name[30];
-    int rollNo;
-    long prn;
-    float percentage;
-    char grade;
+     char name[30];
+     int rollNo;
+     long prn;
+     float percentage;
+     char grade;
  
     public:
         Student(const char * name, int rollNo, long prn, float percentage, char grade) //   constructor  
@@ -32,6 +33,7 @@ class Student {
     }
  
 };
+
 int main() {
      Student student[5] = {
         Student("Abhishek", 1, 2014110867, 69.00,'B'),
@@ -40,6 +42,7 @@ int main() {
         Student("Ramlal", 4, 2014110883, 45.00,'C'),
         Student("Shyamlal", 1, 2014110867, 52.00,'C'),
     };
+ 
     for (int i = 0; i <= 4; i++) {
         student[i].show();
     }
