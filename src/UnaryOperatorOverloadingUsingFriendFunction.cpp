@@ -19,12 +19,14 @@ public:
              << c << "\n"
              << std::endl;
     }
+    
     void show() {
         std::cout << a << "\n"
              << b << "\n"
              << c << "\n"
              << std::endl;
     }
+    
     void friend operator-(UnaryFriend &x);        //Pass by reference
 };
 
@@ -33,6 +35,7 @@ void operator-(UnaryFriend &x) {
     x.b = -x.b;
     x.c = -x.c;
 }
+
 int main() {
     UnaryFriend x1;
     x1.getvalues();
