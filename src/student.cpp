@@ -4,25 +4,25 @@
 using namespace std;
 
 void students::stud::userinput() {
-    cout<<"\nDetail of Students\n";
-    cout<<"Enter name: "<<endl;
-    cin>>name;
-    cout<<"Enter Roll no: "<<endl;
-    cin>>roll_no;
-    cout<<"Enter PRN: "<<endl;
-    cin>>prn;
-    cout<<"Enter contact number: "<<endl;
-    cin>>contact_no;
+    std::cout << "\nDetail of Students\n";
+    std::cout << "Enter name: " << std::endl;
+    std::cin >> name;
+    std::cout << "Enter Roll no: " << std::endl;
+    std::cin >> roll_no;
+    std::cout << "Enter PRN: " << std::endl;
+    std::cin >> prn;
+    std::cout << "Enter contact number: " << std::endl;
+    std::cin >> contact_no;
 }
 
 void students::stud::studentinfo() {
-    cout<<"\n****\n";
-    cout<<"Name : "<<name<<endl;
-    cout<<"Roll no : "<<roll_no<<endl;
-    cout<<"PRN : "<<prn<<endl;
-    cout<<"Contact number : "<<contact_no<<endl;
-    cout<<"------*\n";
-}
+    std::cout << "\n****\n";
+    std::cout << "Name : " << name << std::endl;
+    std::cout << "Roll no : " << roll_no << std::endl;
+    std::cout << "PRN : " << prn << std::endl;
+    std::cout << "Contact number : " << contact_no << std::endl;
+    std::cout << "------*\n";
+}  
 
 int main() {
     students::stud s1;
