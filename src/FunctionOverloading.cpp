@@ -14,22 +14,23 @@ public:
     int add(int x, int y)
     {
         int addition;
-        cout << "Enter two INT numbers\n";
-        cin >> x >> y;
+        std::cout << "Enter two INT numbers\n";
+        std::cin >> x >> y;
         addition = x + y;
-        cout << "Addition = " << addition << "\n";
+        std::cout << "Addition = " << addition << "\n";
         return addition;
     }
 
     double add(double x, double y)
     {
         double addition;
-        cout << "Enter two DOUBLE numbers\n";
-        cin >> x >> y;
+        std::cout << "Enter two DOUBLE numbers\n";
+        std::cin >> x >> y;
         addition = x + y;
-        cout << "Addition = " << addition << "\n";
+        std::cout << "Addition = " << addition << "\n";
         return addition;
     }
+    
     long add(long x, long y)
     {
         long addition;
@@ -40,8 +41,8 @@ public:
         return addition;
     }
 };
-int main()
-{
+
+int main() {
     function f;
     int a, b;
     double c, d;
