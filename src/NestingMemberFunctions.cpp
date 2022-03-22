@@ -26,4 +26,3 @@ class add {
 
         return 0;
     }
-
