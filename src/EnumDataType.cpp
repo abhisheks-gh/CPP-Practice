@@ -1,6 +1,6 @@
 // Program to find whether the entered day is weekday or weekend using enum datatype.
 
-#include<iostream>
+#include <iostream>
 
 int main() {
     enum Day {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; 
@@ -13,9 +13,9 @@ int main() {
     x = today;  
 
     if (today == Sunday || today == Saturday)   
-        std::cout<<"Finally! It's the weekend\n";
+        std::cout << "Finally! It's the weekend\n";
     else
-        std::cout<<"Week day. Get back to work!\n";
+        std::cout << "Week day. Get back to work!\n";
         
     return 0;
 }
